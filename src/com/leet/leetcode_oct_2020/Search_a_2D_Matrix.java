@@ -3,8 +3,8 @@ package com.leet.leetcode_oct_2020;
 public class Search_a_2D_Matrix {
 
 	public static void main(String[] args) {
-		int[][] matrix = {{1,3,5,7},{10,11,16,20},{23,30,34,50}};
-		int target = 3;
+		int[][] matrix = {{1,3,5,7,},{10,11,16,21},{23,30,34,50}};
+		int target = 11;
 		
 		System.out.println(searchMatrix(matrix, target));
 		
@@ -41,12 +41,30 @@ public class Search_a_2D_Matrix {
 		}
 		
 		//linear search target in expected row
-		for(int i : matrix[target_m]) {
-			if(i == target)return true;
-		}
+//		for(int i : matrix[target_m]) {
+//			if(i == target)return true;
+//		}
 		
-        return false;
+        return binarySearch(matrix[target_m], target);
         
     }
 
+	public static boolean binarySearch (int [] matrix, int target) {
+		
+		int L = 0;
+		int H = matrix.length-1;
+		while(L<=H) {
+			int M = L + (H-L)/2;
+			
+			if(target == matrix[M])return true;
+			
+			if(target>matrix[M]) {
+				L = M+1;
+			}else{
+				H = M - 1;
+			}
+		}
+		
+		return false;
+	}
 }
