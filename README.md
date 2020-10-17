@@ -9,6 +9,9 @@ Status: Accepted, Runtime: 0 ms, Memory Usage: 39.6 MB
 135 / 135 test cases passed.\
 Status: Accepted, Runtime: 0 ms, Memory Usage: 38.3 MB
 
+17/10/2020 (Repeated DNA Sequences) \
+32 / 32 test cases passed.\
+Status: Accepted, Runtime: 18 ms, Memory Usage: 47.5 MB
 
 
 
