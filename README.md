@@ -14,8 +14,8 @@ Status: Accepted, Runtime: 0 ms, Memory Usage: 38.3 MB
 Status: Accepted, Runtime: 18 ms, Memory Usage: 47.5 MB
 
 18/10/2020 (Best Time to Buy and Sell Stock IV) \
-209 / 212 test cases passed.\
-Status: Time Limit Exceeded, Runtime: - ms, Memory Usage: - MB
+212 / 212 test cases passed.\
+Status: Accepted, Runtime: 2 ms, Memory Usage: 39.2 MB
 
 19/10/2020 (Minimum Domino Rotations For Equal Row) \
 81 / 81 test cases passed.\
