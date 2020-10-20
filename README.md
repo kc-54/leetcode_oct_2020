@@ -21,4 +21,7 @@ Status: Accepted, Runtime: 2 ms, Memory Usage: 39.2 MB
 81 / 81 test cases passed.\
 Status: Accepted, Runtime: 5 ms, Memory Usage: 46.8 MB
 
+20/10/2020 (Clone Graph) \
+22 / 22 test cases passed.\
+Status: Accepted, Runtime: 25 ms, Memory Usage: 39 MB
 
