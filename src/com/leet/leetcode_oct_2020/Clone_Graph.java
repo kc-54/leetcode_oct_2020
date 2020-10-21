@@ -11,7 +11,6 @@ public class Clone_Graph {
 		Node n2 = new Node(2);
 		Node n3 = new Node(3);
 		Node n4 = new Node(4);
-		Node n = new Node(1);
 		
         List<Node> n_neighbors1 = new ArrayList<Node>();
         List<Node> n_neighbors2 = new ArrayList<Node>();
