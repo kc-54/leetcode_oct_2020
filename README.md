@@ -25,3 +25,8 @@ Status: Accepted, Runtime: 5 ms, Memory Usage: 46.8 MB
 22 / 22 test cases passed.\
 Status: Accepted, Runtime: 25 ms, Memory Usage: 39 MB
 
+22/10/2020 (Asteroid Collision) \
+275 / 275 test cases passed.\
+Status: Accepted, Runtime: 3 ms, Memory Usage: 40.1 MB
+
+
