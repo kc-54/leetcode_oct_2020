@@ -1,5 +1,7 @@
 # Leetcode_oct_2020
 Leetcode_challenge_oct_2020\
+
+Not the best nor the most optimized answer, feedbacks are welcomed.
 \
 16/10/2020 (Rotate Array) \
 35 / 35 test cases passed.\
