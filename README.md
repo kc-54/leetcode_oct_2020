@@ -36,4 +36,8 @@ Status: Accepted, Runtime: 3 ms, Memory Usage: 40.1 MB
 52 / 52 test cases passed.\
 Status: Accepted, Runtime: 0 ms, Memory Usage: 58.7 MB
 
+23/10/2020 (Minimum Depth of Binary Tree) \
+96 / 96 test cases passed.\
+Status: Accepted, Runtime: 3 ms, Memory Usage: 39.4 MB
+
 
