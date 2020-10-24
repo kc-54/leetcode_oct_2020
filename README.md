@@ -40,4 +40,8 @@ Status: Accepted, Runtime: 0 ms, Memory Usage: 58.7 MB
 96 / 96 test cases passed.\
 Status: Accepted, Runtime: 3 ms, Memory Usage: 39.4 MB
 
+24/10/2020 (Bag of Tokens) \
+147 / 147 test cases passed.\
+Status: Accepted, Runtime: 3 ms, Memory Usage: 38.3 MB
+
 
