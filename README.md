@@ -44,4 +44,8 @@ Status: Accepted, Runtime: 3 ms, Memory Usage: 39.4 MB
 147 / 147 test cases passed.\
 Status: Accepted, Runtime: 3 ms, Memory Usage: 38.3 MB
 
+25/10/2020 (Stone Game IV) \
+72 / 72 test cases passed.\
+Status: Accepted, Runtime: 3 ms, Memory Usage: 36.1 MB
+
 
