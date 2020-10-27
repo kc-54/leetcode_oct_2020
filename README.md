@@ -56,4 +56,8 @@ Status: Accepted, Runtime: 3 ms, Memory Usage: 36.1 MB
 312 / 312 test cases passed.\
 Status: Accepted, Runtime: 4 ms, Memory Usage: 38.8 MB
 
+27/10/2020 (Linked List Cycle II) \
+16 / 16 test cases passed.\
+Status: Accepted, Runtime: 4 ms, Memory Usage: 40.1 MB
+
 
