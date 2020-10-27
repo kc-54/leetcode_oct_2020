@@ -52,4 +52,8 @@ Status: Accepted, Runtime: 3 ms, Memory Usage: 38.3 MB
 72 / 72 test cases passed.\
 Status: Accepted, Runtime: 3 ms, Memory Usage: 36.1 MB
 
+26/10/2020 (Champagne Tower) \
+312 / 312 test cases passed.\
+Status: Accepted, Runtime: 4 ms, Memory Usage: 38.8 MB
+
 
