@@ -60,4 +60,8 @@ Status: Accepted, Runtime: 4 ms, Memory Usage: 38.8 MB
 16 / 16 test cases passed.\
 Status: Accepted, Runtime: 4 ms, Memory Usage: 40.1 MB
 
+28/10/2020 (Summary Ranges) \
+28 / 28 test cases passed.\
+Status: Accepted, Runtime: 0 ms, Memory Usage: 37 MB
+
 
