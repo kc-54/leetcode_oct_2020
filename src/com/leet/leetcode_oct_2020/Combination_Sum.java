@@ -1,6 +1,7 @@
 package com.leet.leetcode_oct_2020;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Combination_Sum {
@@ -11,9 +12,47 @@ public class Combination_Sum {
 		int target = 16;
 		
 		
-		combinationSum(candidates, target);
+		
+		for(List<Integer> li : combinationSum_1(candidates, target)) {
+			for(int i : li) {
+				System.out.print(i + " ");
+			}
+			System.out.println();
+		}
+
+		for(List<Integer> li : combinationSum_2(candidates, target)) {
+			for(int i : li) {
+				System.out.print(i + " ");
+			}
+			System.out.println();
+		}
+		
 	}
-	public static List<List<Integer>> combinationSum(int[] candidates, int target) {
+	//backtrack solution using recursive
+	public static List<List<Integer>> combinationSum_2(int[] candidates, int target) {
+		List<List<Integer>> res = new ArrayList<List<Integer>>();
+		Arrays.sort(candidates);
+		backtrack(res, new ArrayList<Integer>(), candidates, target, 0);
+		return res;
+		
+	}
+	public static void backtrack(List<List<Integer>> list, List<Integer> tempList, int[] candidates, int remain, int start) {
+		
+		if(remain<0)return;
+		else if(remain == 0) list.add(new ArrayList<>(tempList));
+		else {
+			for(int i = start; i < candidates.length; i++) {
+				tempList.add(candidates[i]);
+				backtrack(list, tempList, candidates, remain-candidates[i],i);
+				tempList.remove(tempList.size()-1);
+			}
+		}
+		
+		
+	}
+	
+	//using dp to get all possible combination and reconstruct. too slow on reconstruction.
+	public static List<List<Integer>> combinationSum_1(int[] candidates, int target) {
 
 		int[][] dp = new int[target+1][candidates.length];
 		
@@ -34,6 +73,9 @@ public class Combination_Sum {
 			}
 			
 		}
+		
+		
+		//reconstruction to list
 		int total = 0;
 		List<List<Integer>> temp = new ArrayList<List<Integer>>();
 		List<Integer> list;
@@ -92,12 +134,6 @@ public class Combination_Sum {
 				
 			}
 
-		}
-		for(List<Integer> li : temp) {
-			for(int i : li) {
-				System.out.print(i + " ");
-			}
-			System.out.println();
 		}
 		
 		return temp;
