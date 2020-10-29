@@ -64,4 +64,8 @@ Status: Accepted, Runtime: 4 ms, Memory Usage: 40.1 MB
 28 / 28 test cases passed.\
 Status: Accepted, Runtime: 0 ms, Memory Usage: 37 MB
 
+29/10/2020 (Maximize Distance to Closest Person) \
+79 / 79 test cases passed.\
+Status: Accepted, Runtime: 2 ms, Memory Usage: 41 MB
+
 
