@@ -9,7 +9,7 @@ Not the best nor the most optimized answer, feedback is welcome.
 Status: Accepted, Runtime: 18 ms, Memory Usage: 48 MB 
 
 02/10/2020 (Combination Sum) \
-- / - test cases passed.\
+0 / - test cases passed.\
 Status: TLE, Runtime: - ms, Memory Usage: - MB 
 
 15/10/2020 (Rotate Array) \
