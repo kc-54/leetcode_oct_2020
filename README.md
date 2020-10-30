@@ -76,4 +76,8 @@ Status: Accepted, Runtime: 0 ms (100.0% faster), Memory Usage: 37 MB
 79 / 79 test cases passed.\
 Status: Accepted, Runtime: 2 ms (75.88% faster), Memory Usage: 41 MB
 
+30/10/2020 (Number of Longest Increasing Subsequence) \
+225 / 225 test cases passed.\
+Status: Accepted, Runtime: 15 ms (52.44% faster), Memory Usage: 38.9 MB
+
 
